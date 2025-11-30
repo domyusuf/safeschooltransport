@@ -1,0 +1,21 @@
+{
+  "projectName": "glidee",
+  "mode": "file-router",
+  "typescript": true,
+  "tailwind": true,
+  "packageManager": "pnpm",
+  "addOnOptions": {
+    "drizzle": {
+      "database": "sqlite"
+    }
+  },
+  "git": true,
+  "version": 1,
+  "framework": "react-cra",
+  "chosenAddOns": [
+    "compiler",
+    "tanstack-query",
+    "start",
+    "drizzle"
+  ]
+}
